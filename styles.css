@@ -193,3 +193,35 @@ margin-bottom:100px;
     
 }  
 
+
+/* movie page styles */
+#movie-card
+{
+ 
+  width: 80%;
+  height: 1200px;
+  background-color:  #e797e1;
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ backdrop-filter: blur(10px);
+  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.1);
+
+}
+
+.movie-card-img
+{
+  width: 90%;
+  height: 500px;
+  background-color: #32012F;
+  margin-top: 100px;
+ 
+}
+
+.movie-description
+{
+  
+}
