@@ -189,7 +189,9 @@ margin-bottom:100px;
 
 .card-bottom button
 {
-    background-color: #ef0a29;
+    background-color: #f6c500;
+    border-radius: 10px;
+    margin-left: 20px;
     
 }  
 
