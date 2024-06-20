@@ -170,7 +170,7 @@ margin-bottom:100px;
 
 }
 
-#cards-container
+#searchResults
 {
     display: flex;
     align-items: center;
@@ -179,10 +179,10 @@ margin-bottom:100px;
     
 }
 
-#cards-container:hover div {
+#searchResults:hover div {
     opacity:0.7;
   }
-#cards-container div:hover {
+#searchResults div:hover {
     transform:perspective(800px)       rotateY(0deg);
     opacity:1;
   }
@@ -197,7 +197,7 @@ margin-bottom:100px;
 
 
 /* movie page styles */
-#movie-card
+#movieDetails
 {
  
   width: 80%;

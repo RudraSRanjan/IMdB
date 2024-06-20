@@ -1,4 +1,4 @@
-const apikey="c7f9e656";
+const apiKey="c7f9e656";
 
 async function getMovieDetailsById(imdbID)
 {
@@ -10,8 +10,8 @@ async function getMovieDetailsById(imdbID)
 
 function displayMovieDetails(movie)
 {
-    const movieDetailsContainer= document.getElementById("movie-card");
-    movieDetailsContainer.innerHTML=`<img src="${movie.Poster}" class="movie-card-img" alt="Movie Poster">
+    const movieDetailsContainer= document.getElementById("movieDetails");
+    movieDetailsContainer.innerHTML=`<img src="${movie.Poster}" class="movie-card-img" alt="${movie.Title}">
          
           <div class="movie-description">
             
@@ -35,13 +35,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (movie) {
                     displayMovieDetails(movie);
                 } else {
-                    const movieDetailsContainer = document.getElementById('movie-card');
+                    const movieDetailsContainer = document.getElementById('movieDetails');
                     movieDetailsContainer.innerHTML = '<p>Movie details not found.</p>';
                 }
             })
             .catch(error => {
                 console.error('Error fetching movie details:', error);
-                const movieDetailsContainer = document.getElementById('movie-card');
+                const movieDetailsContainer = document.getElementById('movieDetails');
                 movieDetailsContainer.innerHTML = '<p>Error fetching movie details.</p>';
             });
     }
