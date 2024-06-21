@@ -201,7 +201,7 @@ margin-bottom:100px;
 {
  
   width: 80%;
-  height: 1200px;
+  height: 1500px;
   background-color:  #e797e1;
   position: relative;
   margin: auto;
@@ -216,14 +216,17 @@ margin-bottom:100px;
 
 .movie-card-img
 {
-  width: 90%;
-  height: 500px;
+  width: 80%;
+  height: 900px;
   background-color: #32012F;
   margin-top: 100px;
+  margin-bottom: 100px;
  
 }
 
 .movie-description
 {
-  
+ margin-left: 10%;
+ position: relative;
+ 
 }
